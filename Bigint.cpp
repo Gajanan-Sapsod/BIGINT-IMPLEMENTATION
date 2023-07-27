@@ -5,7 +5,7 @@ class BigInt {
     string digits;
 
 public:
-    // Constructors
+    // Constructors to initialise digits
     BigInt(unsigned long long n = 0);
     BigInt(string &);
     BigInt(const char *);
